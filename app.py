@@ -72,4 +72,4 @@ if uploaded_zip:
 
         df = pd.DataFrame(data_rows)
         st.dataframe(df)
-        st.download_button("📥 Télécharger les résultats (.xlsx)", df.to_excel(index=False), file_name="resultats_factures.xlsx")
+        st.download_button("Télécharger les résultats (.xlsx)", df.to_excel(index=False), file_name="resultats_factures.xlsx")
